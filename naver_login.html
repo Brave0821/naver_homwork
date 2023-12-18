@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/naver_login.css">
+    <title>로그인페이지</title>
+</head>
+
+<body>
+    <!-- main에서 로그인버튼 클릭 시 진입 -->
+    <div class="main_container">
+        <header>
+            <div class="lang">
+                <select name="select_lang" id="select_lang">
+                    <option value="ko">한국어</option>
+                    <option value="en">English</option>
+                </select>
+        </div>
+        <!-- 클릭시 메인페이지(index 이동)
+            https://www.iloveimg.com/ko/download/sA7vcpkypy45qhscjj4936bz41mzbqzdv65pyc1p9pnmjj0774sykvk53q62As5rhss60l8n7gwws41vtb5599j4z9dbdgjfrthb5p5djqdx46A9hwwxj47drbmr0htm89d4x4bgw6ht0jz0shrzbmfsv7Ag4hm8fg8734m9jh5nm6jyxl81/4
+            -->
+        </header>
+        <main>
+            <div class="login_container">
+                <h1><a href="./index.html"><img src="./images/naver_log.jpg" alt="네이버메인로고"></a></h1>
+                <form action="#" method="post" id="loginForm">
+                    <!-- <fieldset> 태그는 <form> 요소에서 연관된 요소들을 하나의 그룹으로 묶을 때 사용 -->
+                    <fieldset>
+                        <legend class="skip">네이버로그인</legend>
+                        <input type="text" id="user_id" class="login_input" name="user_id" placeholder="아이디">
+                        <input type="password" id="user_pw" class="login_input" name="user_pw" placeholder="비밀번호">
+                        <button type="submit" id="login_btn">로그인</button>
+                        <div class="login_check_btm">
+                            <div>
+                                <input type="checkbox" value="login_check_y" name="login_check_y" id="checkbox" />
+                                <span>로그인 상태 유지</span>
+                            </div>
+                            
+                            <div class="check_btm_right">
+                                <a href="#">IP보안</a>
+                                <a href="#"><span>ON</span></a>
+                                <a href="#">| 일회용 로그인</a>
+                            </div>
+                        </div>
+                </fieldset>
+                </form>
+                <div class="login_search">
+                    <a href="#">아이디 찾기 |</a>
+                    <a href="#">비밀번호 찾기 |</a>
+                    <a href="./naver_join.html">회원가입</a>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <a href="#">이용약관 |</a>
+            <a href="#">개인정보처리방침 |</a>
+            <a href="#">책임의 한계와 법적고지 |</a>
+            <a href="#">회원정보 고객센터 </a>
+            <p>NAVER Copyright © NAVER Corp. All Rights Reserved.</p>
+        </footer>
+    </div>
+</body>
+
+</html>

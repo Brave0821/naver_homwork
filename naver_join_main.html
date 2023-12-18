@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <meta name="keywords" content="">
+ <meta name="description" content="">
+    <title>회원가입페이지</title>
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/naver_join_main.css">
+</head>
+<body>
+    <div class="main_container">
+        <main>
+            <h1><a href="./index.html"><img src="./images/naver_log.jpg" alt="#"></a></h1>
+            <form action="#" method="post" id="join_main_Form">
+                <fieldset>
+                    <legend class="skip">회원가입페이지</legend>
+                    <dl>
+                        <dt>아이디</dt>
+                        <dd>
+                            <input type="text" name="user_id" placeholder="">
+                            <span>@naver.com</span>
+                        </dd>
+                        <dt>비밀번호</dt>
+                        <dd>
+                            <input type="password" name="user_pw" placeholder="">
+                        </dd>
+                        <dt>비밀번호 재확인</dt>
+                        <dd>
+                            <input type="password" name="user_re_pw" placeholder="">
+                        </dd>
+                        <dt>이름</dt>
+                        <dd>
+                            <input type="text" name="user_name" placeholder="">
+                        </dd>
+                        <dt>생년월일</dt>
+                        <dd>
+                            <input type="text" name="birth_day" placeholder="년(4자)" maxlength="4">
+                            <select name="birth_day" id="birth_day">
+                                <option value>월</option>
+                                <option value="day_1">1</option>
+                                <option value="day_2">2</option>
+                                <option value="day_3">3</option>
+                                <option value="day_4">4</option>
+                                <option value="day_5">5</option>
+                                <option value="day_6">6</option>
+                                <option value="day_7">7</option>
+                                <option value="day_8">8</option>
+                                <option value="day_9">9</option>
+                                <option value="day_10">10</option>
+                                <option value="day_11">11</option>
+                                <option value="day_12">12</option>
+                            </select>
+                            <input type="text" name="birth_day_back" placeholder="일" maxlength="2">
+                        </dd>
+                        <dt>성별</dt>
+                        <dd class="gender_pick">
+                            <select name="gender" id="gender">
+                                <option value>성별</option>
+                                <option value="male">남</option>
+                                <option value="female">여</option>
+                            </select>
+                        </dd>
+                        <dt>
+                            본인 확인 이메일
+                            <span>(선택)</span>
+                        </dt>
+                        <dd>
+                            <input type="text" name="user_mail" placeholder="선택입력">
+                        </dd>
+                        <dt>휴대전화</dt>
+                        <dd class="phone_number">
+                            <select name="country_number" id="country_number">
+                                <option value="korea_82">대한민국 +82</option>
+                                <option value="">홍콩 +852</option>
+                            </select>
+                        </dd>
+                        <dd class="phone_input">
+                            <input type="text" name="user_phone_num" placeholder="전화번호 입력">
+                            <button type="button" id="num_certify_get">인증번호 받기</button>
+                        </dd>
+                        <dd class="phone_certify">
+                            <input type="text" name="certify_num" class="certify_num" placeholder="인증번호 입력하세요">
+                        </dd>
+                    </dl>
+                    <button type="button" id="join_member">가입하기</button>
+                </fieldset>
+            </form>
+        </main>
+        <footer>
+            <div class="naver_btm">
+                <a href="#">이용약관 |</a>
+                <a href="#">개인정보처리방침 |</a>
+                <a href="#">책임의 한계와 법적고지 |</a>
+                <a href="#">회원정보 고객센터</a>
+            </div>
+            <address>
+                NAVER Copyright ©
+                <span>NAVER Corp.</span>
+                All Rights Reserved.
+            </address>
+        </footer>
+    </div>
+</body>
+</html>

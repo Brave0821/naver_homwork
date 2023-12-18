@@ -1,0 +1,43 @@
+/* 네이버 메인페이지 */
+.naver_main {
+    width: 350px; height: 135px;
+    margin: 100px 585px 0px;  padding: 16px 16px 12px;
+    background-color: #f7f9fa;
+    margin: 0px auto;
+    border: 1px solid #dae1e6;
+    margin-top: 50px;
+}
+.naver_main p {
+    font-size: 14px;
+    font-family: 'Noto Sans KR', sans-serif; 
+}
+.naver_main .login_bar {
+    width: 316px; height: 47px;
+    display: block; text-align: center; 
+    /* border: 1px solid #000; */
+    color: #fff; background-color: #19ce60;
+    margin: 16px 0px 12px; padding: 15px 0;
+    font-family: 'Noto Sans KR', sans-serif; 
+}
+/* .naver_main a:first {} */
+.naver_main .naver_find {
+    display: flex;
+}
+.naver_main .naver_find a {
+    margin: 1px;
+    font-size: 12px;
+    font-family: 'Noto Sans KR', sans-serif; 
+}
+.naver_main .naver_join {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: right;
+    margin: -15px 3px;
+   /*  padding: -20px 10px 10px 10px; */
+}
+.naver_main .naver_join a {
+    font-size: 12px;
+    font-family: 'Noto Sans KR', sans-serif; 
+}
+
+/* 네이버 메인페이지 끝 BR :D*/

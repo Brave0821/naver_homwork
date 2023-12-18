@@ -1,0 +1,116 @@
+/* 네이버 로그인 페이지 */
+/* header */
+/* * { background-color: #f5f6f7;} */
+/* 밑에  background-color: #f5f6f7; 줬을때 하단이 안먹어서 * 전체  */
+.main_container {
+    background-color: #f5f6f7;
+}
+.main_container header {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: end;
+}
+.main_container header .lang {
+   
+    
+}
+.main_container header .lang #select_lang {
+    /* position: absolute;
+    left: auto; */
+    text-align: right;
+    padding: 5px 17px;
+    border: 1px solid #000;
+    display: block;
+}
+.main_container header .lang #select_lang option {}
+.main_container header  h1 {
+    display: flex;
+    margin: 0 500px;
+}
+
+
+
+/* main */
+.main_container .login_container {}
+.main_container .login_container h1 {
+    text-align: center;
+    margin: 30px 0;
+}
+.main_container .login_container h1 a {}
+.main_container .login_container h1 a img {
+    /* width: 237px; height: 80px; */
+}
+
+.main_container main {
+    /* background-color: aqua; */
+    max-width: 768px;
+    margin: 0 auto;
+}
+.main_container main .login_container {
+    max-width: 460px;
+    margin: 0 auto;
+
+}
+.main_container main .login_container #loginForm {
+    
+}
+/* fieldset에 input박스시작 */
+.main_container main .login_container #loginForm fieldset {
+    display: flex;
+    flex-flow: column nowrap;
+}
+.main_container  main .login_container #loginForm  fieldset .login_input {
+    border: 1px solid #ccc;
+    width: 460px; height: 60px;
+    margin: 0px auto;
+    margin-bottom: 10px;
+}
+/* .main_container main .login_container #loginForm fieldset #user_id {
+   margin-bottom: 10px;
+}
+.main_container main .login_container #loginForm fieldset #user_pw {} */
+/* 로그인박스 */
+.main_container main .login_container #loginForm fieldset #login_btn {
+    background-color: #03c75a;
+    width: 100%;
+    color: #fff;
+    padding: 15px;
+
+}
+.main_container main .login_container #loginForm fieldset .login_check_btm {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+/* 체크박스 아이콘  */
+.main_container main .login_container #loginForm fieldset .login_check_btm #checkbox {
+    /* display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between; */
+}
+/* 체크박스 오른쪽 */
+.main_container main .login_container #loginForm fieldset .login_check_btm .check_btm_right  {
+
+}
+.main_container main .login_container #loginForm fieldset .login_check_btm .check_btm_right a {}
+/* 아이디 비밀번호 회원가입 */
+.main_container main .login_container .login_search {
+    border-top: 1px solid #ccc;
+    text-align: center;
+    padding-top: 20px;
+    margin-bottom: 40px;
+}
+.main_container main .login_container .login_search a {}
+/* footer */
+.main_container footer {
+    max-width: 460px;
+    margin: 0 auto;
+    background-color: #f5f6f7;
+}
+.main_container footer a {
+    font-size: 12px;
+}
+.main_container  footer p {}
+
+
